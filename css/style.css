@@ -1,0 +1,37 @@
+.flex-box-container,
+.flex-box-container-1,
+.flex-box-rps-container-2,
+.flex-box-pickcolor-container-3 {
+    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.flex-box-container-1 {
+    border-radius: 5px;
+
+}
+
+.flex-box-container-1 img,
+.flex-box-rps-container-2 img {
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps-container-2 img:hover {
+
+    box-shadow: 0px 10px 50px navy;
+    cursor: pointer;
+
+}
+
+.flex-box-container div {
+    display: flex;
+    align-items: center;
+
+}

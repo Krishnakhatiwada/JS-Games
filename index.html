@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JavaScript Project</title>
+  </head>
+  <body>
+    <div class="container" style="text-align: center;">
+      <h2>
+        Challenge 1: Your Age in Days
+      </h2>
+      <div class="flex-box-container">
+        <div>
+          <button class="btn btn-primary" id="click" onclick="ageInDays()">
+            Click Me
+          </button>
+        </div>
+        <div>
+          <button class="btn btn-danger" id="reset" onclick="reset()">
+            Reset
+          </button>
+        </div>
+      </div>
+      <div class="flex-box-container">
+        <div id="flex-box-result"></div>
+      </div>
+    </div>
+    <div class="container" style="text-align: center;">
+      <h2>
+        Challenge 2: Cat Generator
+      </h2>
+      <button class="btn btn-primary" id="catgen" onclick="generateCat()">
+        Generate Cat
+      </button>
+      <div class="flex-box-container-1" id="flex-cat-gen"></div>
+    </div>
+    <div class="container" style="text-align: center;">
+      <h2>
+        Challenge 3: Rock Paper Siccsor
+      </h2>
+      <div class="flex-box-rps-container-2" id="rps">
+        <img
+          src="images/rock.jpg"
+          alt="Rock"
+          id="rock"
+          height="250px"
+          onclick="rpsGame(this)"
+        />
+        <img
+          src="images/paper.png"
+          alt="Paper"
+          id="paper"
+          height="250px"
+          onclick="rpsGame(this)"
+        />
+        <img
+          src="images/siccssor.png"
+          alt="Scissor"
+          id="scissor"
+          height="250px"
+          onclick="rpsGame(this)"
+        />
+      </div>
+    </div>
+    <div class="container" style="text-align: center;">
+      <h2>
+        Challenge 4: Chane the colors of Button
+      </h2>
+      <div class="flex-box-pickcolor-container-3">
+        <form>
+          <select
+            class="form-control"
+            name="backdrop"
+            id="background"
+            onchange="buttonColorChange(this)"
+          >
+            <option value="random">Random</option>
+            <option value="red"> Red </option>
+            <option value="blue"> Blue </option>
+            <option value="green"> Green </option>
+            <option value="reset"> Reset </option>
+          </select>
+        </form>
+
+        <button class="btn btn-danger">Click Me</button>
+        <button class="btn btn-primary">Click Me</button>
+        <button class="btn btn-success">Click Me</button>
+        <button class="btn btn-warning">Click Me</button>
+      </div>
+    </div>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
