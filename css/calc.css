@@ -1,31 +1,32 @@
 .container {
-    border: 2px solid;
-    border-radius: 10px;
-    width: 400px;
-    margin-top: 50px;
-    text-align: center;
-    height: 516px;
-    padding: 8px 25px 0px 21px;
-    color: black;
-    text-shadow: 0px 3px 3px #000;
-    background-color: whitesmoke;
-    box-shadow: 10px 10px 10px 0px grey;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+  height: 516px;
+  padding: 8px 25px 0px 21px;
+  color: black;
+  text-shadow: 0px 3px 3px #000;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 10px 0px grey;
 }
 
 #results {
-    border: 1px solid black;
-    border-radius: 9px;
-    height: 110px;
-    margin: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+  border: 1px solid black;
+  border-radius: 9px;
+  height: 110px;
+  margin: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 #buttons {
-    border: 1px solid black;
-    border-radius: 9px;
-    height: 347px;
-    margin: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+  border: 1px solid black;
+
+  border-radius: 9px;
+  height: 347px;
+  margin: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
